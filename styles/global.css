@@ -1,0 +1,39 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+:root {
+  font-size: 62.5%;
+
+  --color-main: rgba(0, 0, 0, 0.938);
+  --color-secondary: rgb(22, 22, 22);
+  --text-color: rgb(255, 255, 255);
+  --title-color: rgba(145, 99, 160, 0.8);
+  --font: 'Poppins', sans-serif;
+  --h1: 800 2.4rem/135% var(--font);
+  --p: 600 1.6rem/165% var(--font);
+}
+
+body {
+  font-size: 1.6rem;
+  background-color: var(--color-main);
+  font: var(--font);
+  color: var(--text-color);
+}
+
+h1, h2 {
+  font: var(--h1);
+  color: var(--title-color);
+}
+
+h3 {
+  font-size: 1.6rem;
+  color: aquamarine;
+}
+
+h1, h2, h3, p, a {
+  font-family: 'Poppins', sans-serif;
+}

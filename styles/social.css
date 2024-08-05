@@ -1,0 +1,17 @@
+#social {
+  background: var(--color-secondary);
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  text-align: center;
+  padding: 1.6rem;
+ 
+    a {
+      font-size: 3rem;
+      background: transparent;
+      border: none;
+      color: white;
+      text-decoration: none;
+    }
+}
+
+

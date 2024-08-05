@@ -1,0 +1,37 @@
+section {
+  background-color: var(--color-secondary);
+  margin: 2rem;
+  border-radius: .8rem;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.tags {
+  padding: 2rem;
+  background-color: var(--color-main);
+  border-radius: .8rem;
+  justify-content: center;
+  text-align: center;
+  
+  
+  a {
+    cursor: pointer;
+    text-decoration: none;
+    color: #fff;
+  }
+
+  img {
+    object-fit: cover;
+    margin-bottom: 1rem;
+    max-height: 20rem;
+    width: 100%;
+  }
+
+  p {
+    margin-top: 1rem;
+    font-size: 1.4rem;
+  }
+}

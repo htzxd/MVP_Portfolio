@@ -1,0 +1,12 @@
+#aboutMe {
+  background-color: var(--color-secondary);
+  padding: 2rem;
+  border-radius: .8rem;
+
+}
+
+@media (width > 760px) {
+  p {
+    font-size: 1.6rem;
+  }
+}

@@ -1,0 +1,40 @@
+nav {
+  background-color: var(--color-main);
+  padding: 2rem;
+  display: flex;
+}
+
+.header {
+  display: flex;
+  text-align: center;
+  justify-content:center;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+
+ul {
+ display: flex;
+ gap: 2rem;
+ list-style: none;
+}
+
+ul li a {
+  color: var(--text-color);
+  font-size: 2rem;
+  text-decoration: none;
+  font-weight: 800;
+}
+
+@media (width > 500px) {
+  .header {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  main {
+    display: grid;
+    justify-content: start;
+  }
+}

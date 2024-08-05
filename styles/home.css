@@ -1,0 +1,48 @@
+main {
+  display: grid;
+  place-content: center;
+  margin: 2rem;
+}
+
+#home {
+  gap: 3rem;
+  margin-bottom: 2rem;
+  display: flex;
+  font-size: 1.4rem;
+  color: aliceblue;
+  font-size: 800;
+  align-items: center;
+  justify-content: center;
+  max-width: 50rem;
+
+  img {
+    object-fit: cover;
+    max-height: 13rem;
+  }
+}
+
+h2 {
+  margin-bottom: 1rem;
+}
+
+@media (width > 760px) {
+  main {
+    display: grid;
+    grid-template-areas:
+    "profile media"
+    "about about";
+    justify-content: space-between;
+  }
+
+  #home {
+    grid-area: profile;
+  }
+
+  #social {
+    grid-area: media;
+  }
+  
+  #aboutMe {
+    grid-area: about;
+  }
+}
